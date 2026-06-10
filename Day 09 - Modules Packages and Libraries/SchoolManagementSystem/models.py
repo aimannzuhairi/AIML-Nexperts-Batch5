@@ -33,7 +33,7 @@ class Student(Person):
         print("--------------------")
         return self.name, self.StudentID
 
-
+# ----------------------------------------------------------------------------
 
 # Teacher
 class Teacher(Person):
@@ -53,6 +53,12 @@ class Teacher(Person):
         print(f"| Name: {self.name} | Student ID: {self.TeacherID} |")
         print("--------------------")
         return self.name, self.TeacherID
+    
+
+
+
+
+    
     
 if __name__ == "__main__":
     # this will only run when you execute the greet.py file
